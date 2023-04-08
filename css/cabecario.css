@@ -1,0 +1,89 @@
+.container-C {
+   display: flex;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  
+}
+
+.logo-cabecario {
+    margin-left: 30px;
+
+}
+
+.nome-estabelecimento {
+    margin: 0 50px 0 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--laranja);
+}
+
+.menu-hamburguer{
+    margin-left: 100px;
+    border: none;
+    background-color: var(--branco);
+    
+}
+
+.overlay {
+    height: 15%;
+    width: 0;
+    z-index: 9;
+    background-color: rgba(54, 53, 53, 0.9);
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.closebtn {
+    margin-top: 30px;
+    margin-left: 300px;
+    border: none;
+   text-decoration: none;
+   font-size: 70px;
+    color: var(--branco);
+}
+
+.overlay-content {
+    display: flex;
+   
+}
+
+.opcoes-cabecario {
+    font-size: 12px;
+    font-weight: 400; 
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 20px;
+    margin: auto;
+}
+
+.opcoes-cabecario:hover {
+    color: var(--laranja);
+}
+    
+
+.numero {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 0 50px 20px;
+   
+}
+
+.ligacao {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 25px 0 50px 40px;
+    color: var(--laranja);
+    border-style: solid;
+    border-width: 1px;
+    padding: 13px;
+}
+
+.ligacao:hover {
+    color: var(--branco);
+    background-color: var(--laranja);
+}

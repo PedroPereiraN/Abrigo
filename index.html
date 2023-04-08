@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrigo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" type="image/png" href="img/doguinho.jpg">
+</head>
+<body class="body">
+    <header> 
+        <div class="container-C">
+            <img src="img/logo-pata.svg" class="logo-cabecario">
+            <h1 class="nome-estabelecimento">Abrigo</h1>
+            <button class="menu-hamburguer" onclick="openNav()">
+                <img src="img/menu.svg" alt="menu">
+            </button>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#" class="opcoes-cabecario">serviços</a>
+                    <a href="#" class="opcoes-cabecario">animais</a>
+                    <a href="#" class="opcoes-cabecario">produtos</a>
+                    <a href="#" class="opcoes-cabecario">lista de desejo</a>
+                </div>
+            </div>
+            <div class="content-header">
+                <a href="#" class="opcoes-header">serviços</a>
+                <a href="#" class="opcoes-header">animais</a>
+                <a href="#" class="opcoes-header">produtos</a>
+                <a href="#" class="opcoes-header">lista de desejo</a>
+            </div>
+            <p class="numero">+55 (xx) xxxxx-xxxx</p>
+            <a class="ligacao">solicite uma ligação</a>
+
+            
+        </div>
+    </header>
+
+    <section>
+        <div class="apresentacao">
+            <div class="conteudo-apresentacao">
+            <h2 class="titutlo-secundario">Um novo companheiro com entrega em domicílio</h2>
+            <p class="texto-apresentacao">Um abrigo online que lhe dará um novo companheiro em poucos cliques. Tome uma atitude!</p>
+            <a href="#" class="botao-apresentacao">ver animais</a>
+            </div>
+            <img src="img/cachorro.svg" class="dog" alt="cachorro">
+        </div>
+
+        <div class="produtos">
+            <div class="catalogo">  
+                <h3 class="lista1" id="catalogo">Cátalogo:</h3>
+                <p class="lista1">Todos</p>
+                <p class="lista1">Brinquedo</p>
+                <p class="lista1">Coleira</p>
+                <p class="lista1">Ração</p>
+                <img src="img/3pontos.svg" class="lista1" alt="menu de três pontos">
+            </div>
+            <button class="pre-btn"><img src="img/arrow.svg"></button>
+            <button class="nxt-btn"><img src="img/arrow.svg"></button>
+            <div class="container-produto">
+                <div class="card-produto">
+                    <div class="produto-imagem">
+                        <img src="img/coleira.svg" alt="coleira" class="representacao-produto">
+                        <button class="botao-card">lista de desejos</button>
+                    </div>
+                    <div class="informacao-produto">
+                        <h3 class="nome-item">Coleira</h3>
+                        <span class="valor">R$20,00</span>
+                    </div>
+                </div>
+
+                <div class="card-produto">
+                    <div class="produto-imagem">
+                        <img src="img/brinquedo.svg" alt="Brinquedo de mastigar" class="representacao-produto">
+                        <button class="botao-card">lista de desejos</button>
+                    </div>
+                    <div class="informacao-produto">
+                        <h2 class="nome-item">Brinquedo de mastigar</h2>
+                        <span class="valor">R$19,50</span>
+                    </div>
+                </div>
+
+                <div class="card-produto">
+                    <div class="produto-imagem">
+                        <img src="img/cama.svg" alt="Bolsa de transporte" class="representacao-produto">
+                        <button class="botao-card">lista de desejos</button>
+                    </div>
+                    <div class="informacao-produto">
+                        <h3 class="nome-item">Bolsa de transporte</h3>
+                        <span class="valor">R$149,99</span>
+                    </div>
+                </div>
+
+                <div class="card-produto">
+                    <div class="produto-imagem">
+                        <img src="img/ração.svg" alt="Ração para cachorro" class="representacao-produto">
+                        <button class="botao-card">lista de desejos</button>
+                    </div>
+                    <div class="informacao-produto">
+                        <h3 class="nome-item">Ração para cachorro</h3>
+                        <span class="valor">R$30,00</span>
+                    </div>
+                </div>
+
+                <div class="card-produto">
+                    <div class="produto-imagem">
+                        <img src="img/racao-gato.jpg" alt="Ração para gato" class="representacao-produto">
+                        <button class="botao-card">lista de desejos</button>
+                    </div>
+                    <div class="informacao-produto">
+                        <h3 class="nome-item">Ração para gato</h3>
+                        <span class="valor">R$21,50</span>
+                    </div>
+                </div>
+
+                <div class="card-produto">
+                    <div class="produto-imagem">
+                        <img src="img/varinha.jpg" alt="Brinquedo para gato" class="representacao-produto">
+                        <button class="botao-card">lista de desejos</button>
+                    </div>
+                    <div class="informacao-produto">
+                        <h3 class="nome-item">Brinquedo para gato</h3>
+                        <span class="valor">R$39,99</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="historia">
+            <div class="texto-hist">
+            <h2 class="sobre-abrigo">Sobre o Abrigo.</h2>
+            <P class="textinho">O Abrigo foi criado com o objetivo de facilitar a adoção de animais por meio da internet. também possuímos
+                itens de PetShop que você pode adquirir para nos apoiar com este incrivel projeto.
+            </P>
+            </div>
+            <div class="img-historia">
+            <img src="img/historia.svg" alt="pessoas conversando" class="img-hist">
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="logo-titulo">
+            <img src="img/logo-branco.svg" alt="logo abrigo" class="logo-rodape"> 
+        <h2 class="titutlo-rodape">abrigo</h2>
+        </div>
+        <div class="informacoes-rodape">
+            <p class="opcoes-rodape">Localização</p>
+            <p class="opcoes-rodape">apoiadores</p>
+            <p class="opcoes-rodape">contato</p>
+            <p class="opcoes-rodape">Sobre</p>
+        </div>
+        <div>
+            <p class="numero-rodape">+55 (xx) xxxxx-xxxx</p>
+            <a href="#" class="ligacao-rodape">solicite uma ligação</a>
+            <button id="myBtn" class="seta-volta" onclick="backTop()">
+                <img src="img/seta-volta.svg" alt="seta para voltar ao topo da pagina">
+            </button>
+            
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

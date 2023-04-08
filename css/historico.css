@@ -1,0 +1,18 @@
+.sobre-abrigo {
+    font-weight: 900;
+    font-size: 17px;
+    
+    text-align: center;
+}
+
+.textinho {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.img-hist {
+    display: block;
+    margin: 0 auto 90px auto;
+}

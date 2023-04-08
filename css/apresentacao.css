@@ -1,0 +1,44 @@
+.apresentacao {
+    margin-top: 30px;
+}
+
+.titutlo-secundario {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 30px 35px;
+
+}
+
+.texto-apresentacao { 
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 35px;
+}
+
+.botao-apresentacao {
+    display: grid;
+    margin: 30px 35px;
+    background: var(--laranja);
+    color: var(--branco);
+    font-style: none;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 20px 20px;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    
+}
+
+.botao-apresentacao:hover {
+    transition: 1s;
+    background-color: var(--vermelho);
+}
+
+.dog {
+    background-color: var(--azul);
+    padding: 0 35px;
+    box-shadow: 30px 30px var(--laranja);
+}
+

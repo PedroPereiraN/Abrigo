@@ -1,0 +1,217 @@
+@import "cabecario.css";
+@import "apresentacao.css";
+@import "produtos.css";
+@import "historico.css";
+@import "footer.css";
+
+:root {
+    --laranja: #E9473C;
+    --branco: #FFFFFFFF;
+    --preto: #00000000;
+    --cinza: #757575;
+    --azul: #89E8EC;
+    --vermelho: #FF0800;
+
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--branco);
+}
+
+@media only screen and (max-width: 540px) {
+    .content-header{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 912px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .ligacao {
+        display: none;
+    }
+
+    .content-header {
+        margin: auto;
+        
+    }
+
+    .opcoes-header {
+        text-decoration: none;
+        padding: 10px;
+        color: #000000;
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+
+    .opcoes-header:hover {
+        color: var(--laranja);
+    }
+
+    .numero {
+        margin: auto;
+    }
+
+    .titutlo-secundario {
+        font-size: 35px;
+    }
+
+    .texto-apresentacao {
+        font-size: 20px;
+    }
+
+    .botao-apresentacao {
+        margin: 30px auto;
+        font-size: 20px;
+    }
+
+
+
+    .dog {
+        width: 85%;
+        box-shadow: 60px 60px var(--laranja);
+    }
+
+    #catalogo {
+        font-size: 25px;
+    }
+
+    .lista1 {
+        font-size: 17px;
+    }
+
+    .sobre-abrigo {
+        font-size: 25px;
+    }
+
+    .textinho {
+        font-size: 17px;
+
+    }
+
+    .img-hist {
+        width: 85%;
+    }
+
+    .titutlo-rodape {
+        font-size: 35px;
+    }
+
+    .opcoes-rodape {
+        font-size: 20px;
+    }
+
+    .umero-rodape {
+        font-size: 17px;
+    }
+    
+    .seta-volta{
+        margin-top: 50px;
+    }
+
+        
+}
+
+@media only screen and (min-width: 1024px) {
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .ligacao {
+        display: none;
+    }
+
+    .content-header {
+        margin: auto;
+        
+    }
+
+    .opcoes-header {
+        text-decoration: none;
+        padding: 10px;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .opcoes-header:hover {
+        color: var(--laranja);
+    }
+
+    .numero {
+        margin: auto;
+    }
+
+    .apresentacao {
+        position: relative;
+        width: 50%;
+    }
+
+    .dog {
+       padding: 50px 600px 50px 0px;
+       margin-left: 100px;
+    }
+
+    .conteudo-apresentacao {
+        position: absolute;
+        left: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .texto-apresentacao {
+        overflow-wrap: break-word;
+    }
+
+    #catalogo {
+        margin-right: 2000px;
+    }
+
+    .historia {
+        margin-bottom: 500px;
+    }
+
+
+    .sobre-abrigo {
+        font-size: 25px;
+    }
+
+    .textinho {
+        font-size: 20px;
+    }
+
+    .texto-hist {
+        float: left;
+        width: 50%;
+    }
+    
+    .img-historia {
+        float: right;
+        width: 50%;
+        
+    }
+
+    .img-hist {
+        width: 90%;
+    }
+
+    .titutlo-rodape {
+        font-size: 35px;
+    }
+
+    .opcoes-rodape {
+        font-size: 20px;
+    }
+
+    .umero-rodape {
+        font-size: 17px;
+    }
+    
+    .seta-volta{
+        margin-top: 50px;
+    }
+}
